@@ -1,6 +1,7 @@
 {
   "name": "clone-twitter",
   "version": "0.1.0",
+  "homepage": "https://diego-adrian.github.io/demo/",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.3.16",
