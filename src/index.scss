@@ -1,0 +1,70 @@
+$white: #FFF;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.flex-align-center {
+  align-items: center !important;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.flex-align-start {
+  align-items: flex-start !important;
+}
+
+.flex-justify-center {
+  justify-content: center !important;
+}
+
+.mt-5 {
+  margin-top: 3px !important;
+}
+
+.mb-5 {
+  margin-bottom: 3px !important;
+}
+
+.overflow-x {
+  overflow-x: auto;
+}
+
+.avatar--height {
+  min-height: 50px !important;
+}
+
+.item--avatar {
+  min-width: 3em !important;
+}
+
+.avatar--image {
+  width: 3em !important;
+  height: 3em !important;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.items--container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $white;
+}
+
